@@ -22,5 +22,6 @@
 
 直接执行生命周期，会打印出前4个，也就是说会打印前4个周期函数；如果没有el(元素实例)，则只会执行beforeCreate()和created()两个周期函数。
 在beforeCreate()和created()生命周期内是无法进行DOM操作的，因为拿不到节点；
+前四个周期函数，只会被调用一次
 
 ![lifecycle.png](0)
