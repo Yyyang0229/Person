@@ -9,9 +9,9 @@
 ## mounted()挂载后
 
 ## beforeUpdate()更新前
-
+    数据更新才会触发
 ## updated()更新后
-
+    数据更新才会执行
 ## activated()
 
 ## deactivated()
