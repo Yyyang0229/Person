@@ -12,8 +12,8 @@
 
 ## updated()
 
-## beforeDstroy()
+## activated()
 
-## beforeCreate()
+## deactivated()
 
 ## beforeCreate() 
