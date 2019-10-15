@@ -16,4 +16,6 @@
 
 ## deactivated()
 
-## beforeCreate() 
+## beforeDestroy() 
+
+## destroyed()
