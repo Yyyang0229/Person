@@ -1,9 +1,9 @@
 # VUE 的生命周期
     vue的生命周期也就是vue对象的生命周期
 ## beforeCreate()创建前
-gf:在实例初始化之后，数据观测 (data observer) 和 event/watcher 事件配置之前被调用。
-    打印$el的结果：undefined；
-    不要在这里进行修改数据等
+**gf**:在实例初始化之后，数据观测 (data observer) 和 event/watcher 事件配置之前被调用。
+**ps**:打印$el的结果：undefined；
+不要在这里进行修改数据等
 ## created()创建后
     打印$el的结果：undefined；
     最早也要在这里进行修改数据
