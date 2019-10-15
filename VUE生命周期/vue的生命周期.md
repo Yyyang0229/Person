@@ -77,4 +77,4 @@ erroCaptured () {
   收集错误，如果在根目录写，其他子组件的错误也会收集到，就是会向上冒泡，除非，子组件阻止事件冒泡，并且正式版本也可以用
 }
 
-![lifecycle.png](0)
+![vue生命周期](https://cn.vuejs.org/images/lifecycle.png)
