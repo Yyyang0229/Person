@@ -6,6 +6,7 @@
 ## created()创建后
     打印$el的结果：undefined；
     最早也要在这里进行修改数据
+    在这个函数后，会判断el是否挂载在实例上，如果没有，则需要等待我们调用vm.
 ## beforeMount()挂载前
     打印$el的结果：<div id="root"></div>
 ## mounted()挂载后
