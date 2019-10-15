@@ -6,18 +6,18 @@
 
 ## beforeMount()挂载前
 
-## mounted()
+## mounted()挂载后
 
-## beforeUpdate()
+## beforeUpdate()更新前
 
-## updated()
+## updated()更新后
 
 ## activated()
 
 ## deactivated()
 
-## beforeDestroy() 
+## beforeDestroy()销毁前
 
-## destroyed()
+## destroyed()销毁后
 
-### 直接执行生命周期，会打印出前4个，也就是说会打印前4个周期函数，如果没有el(元素实例)，则只会执行前两个周期函数
+### 直接执行生命周期，会打印出前4个，也就是说会打印前4个周期函数；如果没有el(元素实例)，则只会执行前两个周期函数，
