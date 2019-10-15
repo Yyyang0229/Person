@@ -22,6 +22,15 @@
 
 注意 mounted **不会**承诺所有的子组件也都一起被挂载。如果你希望等到整个视图都渲染完毕，可以用 vm.$nextTick 替换掉 mounted：
 
+mounted: function () {
+
+  this.$nextTick(function () {
+
+    // Code that will run only after the
+
+    // entire view has been rendered
+  })
+}
 **PS：** 打印$el的结果：<div.>0</div.>
 ## beforeUpdate()更新前
     数据更新才会触发
