@@ -5,8 +5,9 @@
 **PS：** 打印$el的结果：undefined；
 不要在这里进行修改数据等
 ## created()创建后
+**GF：** 在实例创建完成后被立即调用。在这一步，实例已完成以下的配置：数据观测 (data observer)，属性和方法的运算，watch/event 事件回调。然而，挂载阶段还没开始，$el 属性目前不可见
 
-    打印$el的结果：undefined；
+**PS：** 打印$el的结果：undefined；
     最早也要在这里进行修改数据
     在这个函数后，会判断el是否挂载在实例上，如果没有，则需要等待我们调用vm.$mount(el)这个方法来进行挂载；
     之后再判断是否有template组件，如果有，则会调用 render 函数；render就是template组件；它是在beforeMount()和mounted()之间执行；
