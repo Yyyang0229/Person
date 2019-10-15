@@ -15,7 +15,7 @@
 ## beforeMount()挂载前
 **GF：** 在挂载开始之前被调用：相关的 render 函数首次被调用。
 **该钩子在服务器端渲染期间不被调用。**
-    打印$el的结果：<div id="root"></div>
+**PS：** 打印$el的结果：<div id="root"></div>
 ## mounted()挂载后
     打印$el的结果：<div>0</div>
 ## beforeUpdate()更新前
