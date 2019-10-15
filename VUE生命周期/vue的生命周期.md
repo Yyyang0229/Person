@@ -31,6 +31,8 @@
 mounted()挂载后 这个函数后可以进行操作
 前四个周期函数，只会被调用一次
 
-renderError
+renderError () {
+  在开发时，报错
+}
 
 ![lifecycle.png](0)
