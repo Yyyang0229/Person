@@ -2,9 +2,10 @@
     vue的生命周期也就是vue对象的生命周期
 ## beforeCreate()创建前
     打印$el的结果：undefined；
-    不要
+    不要在这里进行修改数据等
 ## created()创建后
-    打印$el的结果：undefined
+    打印$el的结果：undefined；
+    最早也要在这里进行修改数据
 ## beforeMount()挂载前
     打印$el的结果：<div id="root"></div>
 ## mounted()挂载后
