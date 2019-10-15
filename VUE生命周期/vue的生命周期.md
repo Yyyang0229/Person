@@ -6,9 +6,9 @@
 
 ## beforeMount()
 
-## ()
+## mounted()
 
-## beforeCreate()
+## beforeUpdate()
 
 ## beforeCreate()
 
