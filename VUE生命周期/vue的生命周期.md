@@ -10,9 +10,9 @@
 
 ## beforeUpdate()
 
-## beforeCreate()
+## updated()
 
-## beforeCreate()
+## beforeDstroy()
 
 ## beforeCreate()
 
