@@ -13,6 +13,8 @@
     在这个函数后，会判断el是否挂载在实例上，如果没有，则需要等待我们调用vm.$mount(el)这个方法来进行挂载；
     之后再判断是否有template组件，如果有，则会调用 render 函数；render就是template组件；它是在beforeMount()和mounted()之间执行；
 ## beforeMount()挂载前
+**GF：** 在挂载开始之前被调用：相关的 render 函数首次被调用。
+**该钩子在服务器端渲染期间不被调用。**
     打印$el的结果：<div id="root"></div>
 ## mounted()挂载后
     打印$el的结果：<div>0</div>
