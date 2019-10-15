@@ -1,7 +1,8 @@
 # VUE 的生命周期
     vue的生命周期也就是vue对象的生命周期
 ## beforeCreate()创建前
-    打印$el的结果：undefined
+    打印$el的结果：undefined；
+    不要
 ## created()创建后
     打印$el的结果：undefined
 ## beforeMount()挂载前
@@ -21,7 +22,7 @@
 ## destroyed()销毁后
 
 直接执行生命周期，会打印出前4个，也就是说会打印前4个周期函数；如果没有el(元素实例)，则只会执行beforeCreate()和created()两个周期函数。
-在beforeCreate()和created()生命周期内是无法进行DOM操作的，因为拿不到节点；
+在beforeCreate()和created()生命周期内是无法进行DOM操作的，因为拿不到节点；mounted()挂载后 这个函数后可以进行操作
 前四个周期函数，只会被调用一次
 
 ![lifecycle.png](0)
