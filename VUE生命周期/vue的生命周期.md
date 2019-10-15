@@ -18,8 +18,11 @@
 
 **PS：** 打印$el的结果：<div id="root".></div.>
 ## mounted()挂载后
-**GF：** 
-    打印$el的结果：<div>0</div>
+**GF：** el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用该钩子。如果 root 实例挂载了一个文档内元素，当 mounted 被调用时 vm.$el 也在文档内。
+
+注意 mounted **不会**承诺所有的子组件也都一起被挂载。如果你希望等到整个视图都渲染完毕，可以用 vm.$nextTick 替换掉 mounted：
+
+**PS：** 打印$el的结果：<div.>0</div.>
 ## beforeUpdate()更新前
     数据更新才会触发
 ## updated()更新后
