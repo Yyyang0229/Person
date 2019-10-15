@@ -1,13 +1,13 @@
 # VUE 的生命周期
     vue的生命周期也就是vue对象的生命周期
 ## beforeCreate()创建前
-    
+    打印$el的结果：undefined
 ## created()创建后
-
+    打印$el的结果：undefined
 ## beforeMount()挂载前
-
+    打印$el的结果：<div ><>
 ## mounted()挂载后
-
+    打印$el的结果：
 ## beforeUpdate()更新前
     数据更新才会触发
 ## updated()更新后
