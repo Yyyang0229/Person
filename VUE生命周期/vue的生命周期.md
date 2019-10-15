@@ -5,9 +5,9 @@
 ## created()创建后
     打印$el的结果：undefined
 ## beforeMount()挂载前
-    打印$el的结果：<div ><>
+    打印$el的结果：<div id="root"></div>
 ## mounted()挂载后
-    打印$el的结果：
+    打印$el的结果：<div>0</div>
 ## beforeUpdate()更新前
     数据更新才会触发
 ## updated()更新后
@@ -20,6 +20,7 @@
 
 ## destroyed()销毁后
 
-直接执行生命周期，会打印出前4个，也就是说会打印前4个周期函数；如果没有el(元素实例)，则只会执行beforeCreate()和created()两个周期函数
+直接执行生命周期，会打印出前4个，也就是说会打印前4个周期函数；如果没有el(元素实例)，则只会执行beforeCreate()和created()两个周期函数.
+
 
 ![lifecycle.png](0)
